@@ -1,0 +1,17 @@
+{
+    "name": "Increase Discord emoji size",
+    "description": "Literally in the name",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "Grow my emoji"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
+
